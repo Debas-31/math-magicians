@@ -9,12 +9,12 @@ class Calculator extends React.Component {
 
   render() {
     return (
-      <div className='container-cal'>
-        <div className='cal-screen'>
+      <div className="container-cal">
+        <div className="cal-screen">
           0
         </div>
-        <div className='buttons'>
-        <button type="button">AC</button>
+        <div className="buttons">
+          <button type="button">AC</button>
           <button type="button">+/-</button>
           <button type="button">%</button>
           <button className="orange-btn" type="button">&divide;</button>

@@ -1,0 +1,39 @@
+.container-cal {
+  margin: 0 auto;
+  margin-top: 10rem;
+  width: 25%;
+}
+
+.cal-screen {
+  background-color: rgb(133, 134, 148);
+  text-align: right;
+  height: 2em;
+  padding: 0.4em;
+  font-size: 1.4em;
+  color: #fff;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 0.1rem;
+  grid-row-gap: 0.1rem;
+  background-color: rgb(224, 224, 224);
+}
+
+button {
+  border: none;
+  padding: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.buttons .double-space {
+  grid-column: span 2;
+  width: 100%;
+}
+
+button.orange-btn {
+  background-color: rgb(245, 145, 62);
+}

@@ -9,12 +9,12 @@ export default function operate(firstNum, secondNum, operation) {
   if (operation === '-') {
     return first.minus(second).toString();
   }
-  if (operation === 'x') {
+  if (operation === '\u00D7') {
     return first.times(second).toString();
   }
-  if (operation === '÷') {
+  if (operation === '\u00F7') {
     try {
-      return first.plus(second).toString();
+      return first.div(second).toString();
     } catch {
       return "can't divide by 0";
     }

@@ -1,5 +1,6 @@
 import React from 'react';
 import './Calculator.css';
+import calculate from '../logic/calculate';
 
 class Calculator extends React.Component {
   constructor(props) {
@@ -7,32 +8,41 @@ class Calculator extends React.Component {
     this.state = {};
   }
 
+  whenClicked = (e) => {
+    const buttonName = e.target.textContent;
+    const newObj = calculate(this.state, buttonName);
+    this.setState(newObj);
+  };
+
   render() {
+    const buttonNames = ['AC', '+/-', '%', '\u00F7', '7', '8', '9', '\u00D7',
+      '4', '5', '6', '-', '1', '2', '3', '+', '0', '.', '='];
+
+    const generateClassName = (button) => {
+      if (button === '\u00F7' || button === '\u00D7' || button === '-' || button === '+' || button === '=') {
+        return 'orange-btn';
+      }
+
+      if (button === '0') {
+        return 'double-space';
+      }
+      return '';
+    };
+
+    const { next, total, operation } = this.state;
+    let result = '';
+    if (total) {
+      result = `${total} ${operation || ''} ${next || ''}`;
+    } else if (next) {
+      result = next;
+    }
     return (
       <div className="container-cal">
         <div className="cal-screen">
-          0
+          {result}
         </div>
         <div className="buttons">
-          <button type="button">AC</button>
-          <button type="button">+/-</button>
-          <button type="button">%</button>
-          <button className="orange-btn" type="button">&divide;</button>
-          <button type="button">7</button>
-          <button type="button">8</button>
-          <button type="button">9</button>
-          <button className="orange-btn" type="button">&times;</button>
-          <button type="button">4</button>
-          <button type="button">5</button>
-          <button type="button">6</button>
-          <button className="orange-btn" type="button">&minus;</button>
-          <button type="button">1</button>
-          <button type="button">2</button>
-          <button type="button">3</button>
-          <button className="orange-btn" type="button">+</button>
-          <button className="double-space" type="button">0</button>
-          <button type="button">.</button>
-          <button className="orange-btn" type="button">=</button>
+          {buttonNames.map((button) => (<button key={button} className={generateClassName(button)} onClick={this.whenClicked} type="button">{button}</button>))}
         </div>
       </div>
     );

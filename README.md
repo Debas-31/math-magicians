@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Math Magicians : Events
+# Math Magicians : Refactor with hooks
 
 > Math magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
 - Make simple calculations.
@@ -21,10 +21,6 @@
 - Linters
 - Vscode
 
-
-## Live Demo
-
-[Live Demo]()
 
 ## Getting Started
 
@@ -76,7 +72,7 @@ npx eslint . --fix
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Debas-31/math-magicians-/issues).
+Feel free to check the [issues page](https://github.com/Debas-31/math-magicians/issues).
 
 ## Show your support
 
@@ -88,4 +84,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-[MIT licensed]().
+[MIT licensed](https://github.com/Debas-31/math-magicians/blob/milestone-4-refactor-with-hooks/MIT.md).

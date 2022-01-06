@@ -16,7 +16,7 @@ export default function operate(firstNum, secondNum, operation) {
     try {
       return first.div(second).toString();
     } catch {
-      return "can't divide by 0";
+      return 'undefined';
     }
   }
   if (operation === '%') {

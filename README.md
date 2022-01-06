@@ -84,4 +84,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-[MIT licensed]().
+[MIT licensed](https://github.com/Debas-31/math-magicians/blob/milestone-4-refactor-with-hooks/MIT.md).

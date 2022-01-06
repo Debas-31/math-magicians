@@ -1,4 +1,4 @@
-## Copyright 2021, [DEBAS GEBRENGUS]
+## Copyright 2022, [DEBAS GEBRENGUS]
 ###### project : MATH MAGICIANS
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this [math-magicians] and associated documentation files, to deal in the [math-magicians] without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the [math-magicians], and to permit persons to whom the [math-magicians] is furnished to do so, subject to the following conditions:

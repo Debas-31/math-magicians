@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Math Magicians : Events
+# Math Magicians : Refactor with hooks
 
 > Math magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
 - Make simple calculations.

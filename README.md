@@ -22,10 +22,6 @@
 - Vscode
 
 
-## Live Demo
-
-[Live Demo]()
-
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
@@ -76,7 +72,7 @@ npx eslint . --fix
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Debas-31/math-magicians-/issues).
+Feel free to check the [issues page](https://github.com/Debas-31/math-magicians/issues).
 
 ## Show your support
 

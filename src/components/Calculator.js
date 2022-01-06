@@ -1,20 +1,16 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './Calculator.css';
 import calculate from '../logic/calculate';
 
-class Calculator extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
-
-  whenClicked = (e) => {
+const Calculator = () => {
+  const [object, setObject] = useState({});
+  
+  const whenClicked = (e) => {
     const buttonName = e.target.textContent;
-    const newObj = calculate(this.state, buttonName);
-    this.setState(newObj);
+    const newObj = calculate(object, buttonName);
+    setObject(newObj);
   };
 
-  render() {
     const buttonNames = ['AC', '+/-', '%', '\u00F7', '7', '8', '9', '\u00D7',
       '4', '5', '6', '-', '1', '2', '3', '+', '0', '.', '='];
 
@@ -46,7 +42,6 @@ class Calculator extends React.Component {
         </div>
       </div>
     );
-  }
 }
 
 export default Calculator;

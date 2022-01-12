@@ -34,6 +34,7 @@ const Calculator = () => {
   }
   return (
     <div className="container-cal">
+      <h1>Let&apos;s do some Maths</h1>
       <div className="cal-screen">
         {result}
       </div>

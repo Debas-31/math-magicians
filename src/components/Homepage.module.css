@@ -1,0 +1,14 @@
+.header {
+  padding: 1rem;
+}
+
+.header h2 {
+  margin: 6rem 0 0 6rem;
+  font-size: 1.7rem;
+}
+
+.header p {
+  padding: 2rem 0 0 6rem;
+  font-size: 1.2rem;
+  max-width: 80%;
+}

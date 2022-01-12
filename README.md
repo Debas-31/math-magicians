@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Math Magicians : Refactor with hooks
+# Math Magicians : Full website
 
 > Math magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
 - Make simple calculations.
@@ -9,7 +9,14 @@
 
 
 ### ScreenShoot
-![screenshot](./public/screenShoot.png)
+>Home page
+![screenshot](./public/ScreenShotHome.png)
+
+>Calculator page
+![screenshot](./public/ScreenShotCalculator.png)
+
+>Quote page
+![screenshot](./public/ScreenShotQuotet.png)
 
 
 ## Built With
@@ -60,6 +67,12 @@ npx stylelint "**/*.{css,scss}" --fix
 - To fix automatically javaScript issues found
 ```bash
 npx eslint . --fix
+```
+
+- Finally, start your development server by running:
+
+```bash
+npm start
 ```
 
 👤 **Debas Gebreslasie**

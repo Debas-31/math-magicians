@@ -34,11 +34,14 @@ const Calculator = () => {
   }
   return (
     <div className="container-cal">
-      <div className="cal-screen">
-        {result}
-      </div>
-      <div className="buttons">
-        {buttonNames.map((button) => (<button key={button} className={generateClassName(button)} onClick={whenClicked} type="button">{button}</button>))}
+      <h1>Let&apos;s do some Maths</h1>
+      <div className="main-cal">
+        <div className="cal-screen">
+          {result}
+        </div>
+        <div className="buttons">
+          {buttonNames.map((button) => (<button key={button} className={generateClassName(button)} onClick={whenClicked} type="button">{button}</button>))}
+        </div>
       </div>
     </div>
   );

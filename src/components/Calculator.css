@@ -1,9 +1,17 @@
 .container-cal {
-  margin: 0 auto;
+  display: flex;
+  gap: 10%;
+  align-items: flex-start;
+  justify-content: center;
   margin-top: 10rem;
-  width: 25%;
+  width: 100%;
+  background-color: #f4f4f4;
 }
 
+.main-cal {
+  width: 25%;
+  height: 50%;
+}
 .cal-screen {
   background-color: rgb(133, 134, 148);
   text-align: right;

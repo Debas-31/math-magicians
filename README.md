@@ -9,7 +9,14 @@
 
 
 ### ScreenShoot
-![screenshot](./public/screenShoot.png)
+>Home page
+![screenshot](./public/ScreenShotHome.png)
+
+>Calculator page
+![screenshot](./public/ScreenShotCalculator.png)
+
+>page
+![screenshot](./public/ScreenShotQuotet.png)
 
 
 ## Built With
@@ -60,6 +67,12 @@ npx stylelint "**/*.{css,scss}" --fix
 - To fix automatically javaScript issues found
 ```bash
 npx eslint . --fix
+```
+
+- Finally, start your development server by running:
+
+```bash
+npm start
 ```
 
 👤 **Debas Gebreslasie**

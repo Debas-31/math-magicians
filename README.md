@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Math Magicians : Full website
+# Math Magicians : Full website with Deploy
 
 > Math magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
 - Make simple calculations.
@@ -28,6 +28,9 @@
 - Linters
 - Vscode
 
+## Live Demo
+- Deploying using [Heroku](https://math-react-app.herokuapp.com/) 
+- Deploying using [Netlify](https://math-react-app.netlify.app/)
 
 ## Getting Started
 
